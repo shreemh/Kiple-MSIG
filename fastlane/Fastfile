@@ -1,0 +1,49 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+min_fastlane_version("2.70.1")
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+     ENV["SLACK_URL"] = "https://hooks.slack.com/services/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"
+  end
+
+
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+	increment_build_number
+	build_app(scheme: "AtilzeConsumer", include_bitcode: false) 
+  	gym(scheme: "AtilzeConsumer", export_xcargs: "-allowProvisioningUpdates", export_options: {'signingStyle' => 'automatic'})
+    sync_code_signing(type: "development", app_identifier: ["com.beta.kiplecar.msig"])
+    upload_to_testflight(skip_submission: true)
+  end
+
+
+
+  # You can define as many lanes as you want
+
+  after_all do |lane|
+    slack(
+      message: "Successfully uploaded ConnectedCar MSIG beta to TestFlight :sweat_smile: :v:",
+      success: true
+    )
+  end
+
+  # error do |lane, exception|
+  #   slack(
+  #     message: exception.message,
+  #     success: false
+  #   )
+  # end
+end

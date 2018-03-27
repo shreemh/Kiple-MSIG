@@ -1,0 +1,1276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551570C3203D055C00CC6614 /* Walkthrough1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 551570C2203D055C00CC6614 /* Walkthrough1.xib */; };
+		553484DF2005F1AB002DB00F /* CarStatusAlertView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553484DE2005F1AB002DB00F /* CarStatusAlertView2.xib */; };
+		553484E120062FA3002DB00F /* CarStatusAlertsView3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 553484E020062FA3002DB00F /* CarStatusAlertsView3.xib */; };
+		558674431FFDF5F900EC05EA /* CarStatusAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 558674421FFDF5F900EC05EA /* CarStatusAlertView.xib */; };
+		559961432004E848005C9B8F /* CarStatusAlertsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559961422004E848005C9B8F /* CarStatusAlertsVC.swift */; };
+		55A808FA1FF8035100971798 /* FAQDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A808F91FF8035100971798 /* FAQDetailVC.swift */; };
+		55AF8D2A2008C10C002DB30F /* MQTTObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AF8D292008C10C002DB30F /* MQTTObject.swift */; };
+		5E231BE31F1C8B4C003F7A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E231BE21F1C8B4C003F7A1D /* AppDelegate.swift */; };
+		5E231BE51F1C8B4C003F7A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E231BE41F1C8B4C003F7A1D /* ViewController.swift */; };
+		5E231BE81F1C8B4C003F7A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E231BE61F1C8B4C003F7A1D /* Main.storyboard */; };
+		5E231BEA1F1C8B4C003F7A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E231BE91F1C8B4C003F7A1D /* Assets.xcassets */; };
+		5E231BED1F1C8B4C003F7A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E231BEB1F1C8B4C003F7A1D /* LaunchScreen.storyboard */; };
+		5E604D6C1F260BB1007E4D49 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E604D6B1F260BB1007E4D49 /* Utility.swift */; };
+		5E60547F1F25B43A000BF483 /* DashboardViewControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E60547E1F25B43A000BF483 /* DashboardViewControlle.swift */; };
+		5EE5EA971F3834600099937E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE5EA961F3834600099937E /* NetworkManager.swift */; };
+		5EE5EA981F38382C0099937E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE5EA911F38329E0099937E /* SystemConfiguration.framework */; };
+		5EE5EA9A1F3838780099937E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE5EA991F3838780099937E /* Security.framework */; };
+		5EE800471F25F88300BBB71F /* SecondaryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EE800461F25F88300BBB71F /* SecondaryStoryboard.storyboard */; };
+		B131364D1FA7449400F791BD /* AccountRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B131364C1FA7449400F791BD /* AccountRegistrationVC.swift */; };
+		B131364F1FA744AC00F791BD /* AboutYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B131364E1FA744AC00F791BD /* AboutYouVC.swift */; };
+		B13136511FA744C500F791BD /* AboutYourCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13136501FA744C500F791BD /* AboutYourCarVC.swift */; };
+		B134A9871F4D953800165A55 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B134A9861F4D953800165A55 /* ChangePasswordVC.swift */; };
+		B134A9891F4DB94500165A55 /* EditCarModelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B134A9881F4DB94500165A55 /* EditCarModelVC.swift */; };
+		B15BE5A11F597AD4005C2636 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B15BE5A01F597AD4005C2636 /* MapKit.framework */; };
+		B15BE5A41F597EB6005C2636 /* LocateMyCarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15BE5A31F597EB6005C2636 /* LocateMyCarVC.swift */; };
+		E994E3B3C5072221E91E51DB /* Pods_AtilzeConsumerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF5DD1F8685EFE916319462 /* Pods_AtilzeConsumerTests.framework */; };
+		EBEC499CE99F31735AF1D925 /* Pods_AtilzeConsumer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 766896E0622192AAD9776504 /* Pods_AtilzeConsumer.framework */; };
+		F4020DC11F4D4BC00039B582 /* ActivationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4020DC01F4D4BC00039B582 /* ActivationCodeVC.swift */; };
+		F40DB1D11FB9ADBE0040AC3E /* TrackingModeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F40DB1D01FB9ADBE0040AC3E /* TrackingModeView.xib */; };
+		F412705C1F4AC4A10004881D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F412705B1F4AC4A10004881D /* GoogleService-Info.plist */; };
+		F412705F1F4ADF560004881D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F412705E1F4ADF560004881D /* UserNotifications.framework */; };
+		F4194CD31FA85D2A00E55F26 /* SpeedWarningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4194CD21FA85D2900E55F26 /* SpeedWarningView.xib */; };
+		F41F504B1FB577FB00B331B9 /* FreeStarBuck.xib in Resources */ = {isa = PBXBuildFile; fileRef = F41F50491FB577FA00B331B9 /* FreeStarBuck.xib */; };
+		F41F504C1FB577FB00B331B9 /* FreeStarBuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F504A1FB577FB00B331B9 /* FreeStarBuck.swift */; };
+		F426BBB41F754A5B009D6C66 /* HelpSupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426BBB21F754A5B009D6C66 /* HelpSupportVC.swift */; };
+		F426BBB51F754A5B009D6C66 /* TripsNotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F426BBB31F754A5B009D6C66 /* TripsNotVC.swift */; };
+		F429EFA91FA343DC00430D10 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F43DF71F98BF81002D14B4 /* Montserrat-BoldItalic.ttf */; };
+		F429EFAA1FA343E000430D10 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F43DF51F98B416002D14B4 /* Montserrat-Italic.ttf */; };
+		F429EFAD1FA3492E00430D10 /* WarningView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F429EFAC1FA3492E00430D10 /* WarningView.xib */; };
+		F42BD6741F96299D004B7EE6 /* TripTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BD6731F96299D004B7EE6 /* TripTrackingVC.swift */; };
+		F42BD6761F962AC3004B7EE6 /* DriveAndTrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BD6751F962AC3004B7EE6 /* DriveAndTrackVC.swift */; };
+		F437589A1F8B6D9D00E436F5 /* NotificationsVCNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43758991F8B6D9D00E436F5 /* NotificationsVCNew.swift */; };
+		F44072EF1F2B0D210086956F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F44072EE1F2B0D210086956F /* .swiftlint.yml */; };
+		F44072F51F2B177F0086956F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44072F41F2B177F0086956F /* Constants.swift */; };
+		F44072F91F2B3C180086956F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44072F81F2B3C180086956F /* MenuVC.swift */; };
+		F44072FB1F2B43DB0086956F /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB741F2895B400B35B40 /* Montserrat-ExtraBold.otf */; };
+		F44072FC1F2B43DB0086956F /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB751F2895B400B35B40 /* Montserrat-ExtraLight.otf */; };
+		F44072FD1F2B43DB0086956F /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB761F2895B400B35B40 /* Montserrat-Light.otf */; };
+		F44072FE1F2B43DB0086956F /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB771F2895B400B35B40 /* Montserrat-Medium.otf */; };
+		F44072FF1F2B43DB0086956F /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB781F2895B400B35B40 /* Montserrat-Regular.otf */; };
+		F44073001F2B43DB0086956F /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB791F2895B400B35B40 /* Montserrat-SemiBold.otf */; };
+		F44073011F2B43DB0086956F /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7A1F2895B400B35B40 /* Montserrat-Thin.otf */; };
+		F44073021F2B43DB0086956F /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7B1F2895B400B35B40 /* MontserratAlternates-Black.otf */; };
+		F44073031F2B43DB0086956F /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7C1F2895B400B35B40 /* MontserratAlternates-Bold.otf */; };
+		F44073041F2B43DB0086956F /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7D1F2895B400B35B40 /* MontserratAlternates-ExtraBold.otf */; };
+		F44073051F2B43DB0086956F /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7E1F2895B400B35B40 /* MontserratAlternates-ExtraLight.otf */; };
+		F44073061F2B43DB0086956F /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB7F1F2895B400B35B40 /* MontserratAlternates-Light.otf */; };
+		F44073071F2B43DB0086956F /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB801F2895B400B35B40 /* MontserratAlternates-Medium.otf */; };
+		F44073081F2B43DB0086956F /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB811F2895B400B35B40 /* MontserratAlternates-Regular.otf */; };
+		F44073091F2B43DB0086956F /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB821F2895B400B35B40 /* MontserratAlternates-SemiBold.otf */; };
+		F440730A1F2B43DB0086956F /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB831F2895B400B35B40 /* MontserratAlternates-Thin.otf */; };
+		F440730B1F2B43DD0086956F /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB731F2895B400B35B40 /* Montserrat-Bold.otf */; };
+		F444407A1F306A3700D4F1B5 /* CarStausVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44440791F306A3400D4F1B5 /* CarStausVC.swift */; };
+		F44AE8391F569F9A00078EDC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AE8381F569F9A00078EDC /* Model.swift */; };
+		F4587E421F723E4B00758FFB /* RoadsideAssistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4587E411F723E4B00758FFB /* RoadsideAssistVC.swift */; };
+		F45B890D1FED246B006654D1 /* SimpleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B890C1FED246B006654D1 /* SimpleTextField.swift */; };
+		F461C7B51FCC0E9D00400B44 /* TripDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461C7B41FCC0E9D00400B44 /* TripDetailViewModel.swift */; };
+		F4701CD81F2A077A00C974EE /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4701CD71F2A077A00C974EE /* SignInVC.swift */; };
+		F471E7421F30467900199C39 /* TripViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471E7411F30467900199C39 /* TripViewModel.swift */; };
+		F471E7471F304E0200199C39 /* EmergencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471E7461F304DFD00199C39 /* EmergencyVC.swift */; };
+		F48051B91F8B747200E9DE61 /* NotificationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48051B81F8B747200E9DE61 /* NotificationsViewModel.swift */; };
+		F4901D7C1FED061C002DC610 /* AddOrEditEmergencyContactVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4901D7B1FED061C002DC610 /* AddOrEditEmergencyContactVC.swift */; };
+		F49098E91FD961AF0098A7D9 /* TripHistoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49098E81FD961AE0098A7D9 /* TripHistoryTest.swift */; };
+		F4BAFB121F46EDED00B8A5D9 /* AlertsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BAFB111F46EDED00B8A5D9 /* AlertsViewModel.swift */; };
+		F4BE055D1FAB058500FB3BDB /* TripSummaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE055C1FAB058500FB3BDB /* TripSummaryViewModel.swift */; };
+		F4D098431F2F60AB00EA403B /* TripHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0AA091F2F5BC9003E5FDF /* TripHistoryVC.swift */; };
+		F4D0AA011F2F3F39003E5FDF /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0AA001F2F3F39003E5FDF /* SettingsVC.swift */; };
+		F4D724F21F319ED000DC1917 /* KipleCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D724F01F319ED000DC1917 /* KipleCar.swift */; };
+		F4D724F31F319ED000DC1917 /* KipleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D724F11F319ED000DC1917 /* KipleViewController.swift */; };
+		F4D724F81F31A10900DC1917 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D724F71F31A10900DC1917 /* CustomTextField.swift */; };
+		F4D724FC1F31A37100DC1917 /* Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D724FA1F31A37100DC1917 /* Walkthrough.swift */; };
+		F4D724FE1F31A53F00DC1917 /* Walkthrough.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4D725001F31A53F00DC1917 /* Walkthrough.xib */; };
+		F4D725021F31D6F200DC1917 /* CustomShadeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D725011F31D6F200DC1917 /* CustomShadeView.swift */; };
+		F4D725041F31E28E00DC1917 /* InCarWifiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D725031F31E28E00DC1917 /* InCarWifiVC.swift */; };
+		F4D725051F31E40100DC1917 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = F4D725071F31E40100DC1917 /* Montserrat-Black.otf */; };
+		F4D7FE271FCFE57000C496F5 /* PanicButtonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7FE261FCFE57000C496F5 /* PanicButtonDetailVC.swift */; };
+		F4D7FE291FCFE59600C496F5 /* RoadsideAssistDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7FE281FCFE59600C496F5 /* RoadsideAssistDetailVC.swift */; };
+		F4D934731FCECDB5008D44BF /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D934721FCECDB4008D44BF /* TermsVC.swift */; };
+		F4D934751FCEDE6C008D44BF /* AddEmergencyContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D934741FCEDE6C008D44BF /* AddEmergencyContacts.swift */; };
+		F4E498901FA20726004E5345 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E4988F1FA20726004E5345 /* UserLocation.swift */; };
+		F4E689D31FB484E800721A0B /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4E689D21FB484DF00721A0B /* Montserrat-SemiBoldItalic.ttf */; };
+		F4E717351FD1459500547B4D /* FullScreenMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E717341FD1459500547B4D /* FullScreenMapVC.swift */; };
+		F4EB7F701FDFBD1C000707C1 /* DeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EB7F6F1FDFBD1C000707C1 /* DeviceMotion.swift */; };
+		F4F1EB131F38851300C73C1B /* TripDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F1EB121F38851300C73C1B /* TripDetailVC.swift */; };
+		F4F596C01F4EB32000B06126 /* ActivateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F596BF1F4EB32000B06126 /* ActivateAccountVC.swift */; };
+		F4F596C21F4EB33D00B06126 /* AccountSetUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F596C11F4EB33D00B06126 /* AccountSetUpVC.swift */; };
+		F4F596C41F4EB35500B06126 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F596C31F4EB35500B06126 /* WelcomeVC.swift */; };
+		F4FD836A1F6BC38400FFA453 /* EditTimeZoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD83691F6BC38300FFA453 /* EditTimeZoneVC.swift */; };
+		F4FDC0041F95E9FF0042C8F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0031F95E9FF0042C8F3 /* TabBarController.swift */; };
+		F4FDC0071F9609B60042C8F3 /* AccountTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FDC0061F9609B60042C8F3 /* AccountTypeVC.swift */; };
+		F4FF63791F97235B006B8BBE /* AtilzeConsumerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF63781F97235B006B8BBE /* AtilzeConsumerTests.swift */; };
+		F4FF63811F97238A006B8BBE /* DriveAndTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF63801F97238A006B8BBE /* DriveAndTrackTests.swift */; };
+		F4FF63831F9728E1006B8BBE /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF63821F9728E1006B8BBE /* ProfileTests.swift */; };
+		F4FF63851F975676006B8BBE /* TripSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF63841F975676006B8BBE /* TripSummaryVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4FF637B1F97235B006B8BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E231BD71F1C8B4C003F7A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E231BDE1F1C8B4C003F7A1D;
+			remoteInfo = AtilzeConsumer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		551570C2203D055C00CC6614 /* Walkthrough1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Walkthrough1.xib; sourceTree = "<group>"; };
+		553484DE2005F1AB002DB00F /* CarStatusAlertView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarStatusAlertView2.xib; sourceTree = "<group>"; };
+		553484E020062FA3002DB00F /* CarStatusAlertsView3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarStatusAlertsView3.xib; sourceTree = "<group>"; };
+		558674421FFDF5F900EC05EA /* CarStatusAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarStatusAlertView.xib; sourceTree = "<group>"; };
+		559961422004E848005C9B8F /* CarStatusAlertsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStatusAlertsVC.swift; sourceTree = "<group>"; };
+		55A808F91FF8035100971798 /* FAQDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQDetailVC.swift; sourceTree = "<group>"; };
+		55AF8D292008C10C002DB30F /* MQTTObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTObject.swift; sourceTree = "<group>"; };
+		5E231BDF1F1C8B4C003F7A1D /* AtilzeConsumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtilzeConsumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E231BE21F1C8B4C003F7A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E231BE41F1C8B4C003F7A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E231BE71F1C8B4C003F7A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E231BE91F1C8B4C003F7A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E231BEC1F1C8B4C003F7A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E231BEE1F1C8B4C003F7A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E604D6B1F260BB1007E4D49 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5E60547E1F25B43A000BF483 /* DashboardViewControlle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewControlle.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		5EE5EA911F38329E0099937E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5EE5EA961F3834600099937E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5EE5EA991F3838780099937E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5EE5EA9B1F3838C70099937E /* AtilzeConsumer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtilzeConsumer-Bridging-Header.h"; sourceTree = "<group>"; };
+		5EE800461F25F88300BBB71F /* SecondaryStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondaryStoryboard.storyboard; sourceTree = "<group>"; };
+		766896E0622192AAD9776504 /* Pods_AtilzeConsumer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtilzeConsumer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF5DD1F8685EFE916319462 /* Pods_AtilzeConsumerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AtilzeConsumerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8A717B9C3333B19BE6E2E1 /* Pods-AtilzeConsumer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtilzeConsumer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtilzeConsumer/Pods-AtilzeConsumer.release.xcconfig"; sourceTree = "<group>"; };
+		B131364C1FA7449400F791BD /* AccountRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRegistrationVC.swift; sourceTree = "<group>"; };
+		B131364E1FA744AC00F791BD /* AboutYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutYouVC.swift; sourceTree = "<group>"; };
+		B13136501FA744C500F791BD /* AboutYourCarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutYourCarVC.swift; sourceTree = "<group>"; };
+		B134A9861F4D953800165A55 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		B134A9881F4DB94500165A55 /* EditCarModelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCarModelVC.swift; sourceTree = "<group>"; };
+		B15BE5A01F597AD4005C2636 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B15BE5A31F597EB6005C2636 /* LocateMyCarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocateMyCarVC.swift; sourceTree = "<group>"; };
+		BE504025EE1B8AFF08C53B54 /* Pods-AtilzeConsumer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtilzeConsumer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtilzeConsumer/Pods-AtilzeConsumer.debug.xcconfig"; sourceTree = "<group>"; };
+		C9FFCD0E21B4ECDADEF750F5 /* Pods-AtilzeConsumerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtilzeConsumerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AtilzeConsumerTests/Pods-AtilzeConsumerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4020DC01F4D4BC00039B582 /* ActivationCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationCodeVC.swift; sourceTree = "<group>"; };
+		F40DB1D01FB9ADBE0040AC3E /* TrackingModeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackingModeView.xib; sourceTree = "<group>"; };
+		F412705B1F4AC4A10004881D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F412705D1F4ADD5A0004881D /* AtilzeConsumer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AtilzeConsumer.entitlements; sourceTree = "<group>"; };
+		F412705E1F4ADF560004881D /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		F4194CD21FA85D2900E55F26 /* SpeedWarningView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpeedWarningView.xib; sourceTree = "<group>"; };
+		F41F50491FB577FA00B331B9 /* FreeStarBuck.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FreeStarBuck.xib; sourceTree = "<group>"; };
+		F41F504A1FB577FB00B331B9 /* FreeStarBuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeStarBuck.swift; sourceTree = "<group>"; };
+		F426BBB21F754A5B009D6C66 /* HelpSupportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSupportVC.swift; sourceTree = "<group>"; };
+		F426BBB31F754A5B009D6C66 /* TripsNotVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsNotVC.swift; sourceTree = "<group>"; };
+		F429EFAC1FA3492E00430D10 /* WarningView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WarningView.xib; sourceTree = "<group>"; };
+		F42BD6731F96299D004B7EE6 /* TripTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTrackingVC.swift; sourceTree = "<group>"; };
+		F42BD6751F962AC3004B7EE6 /* DriveAndTrackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAndTrackVC.swift; sourceTree = "<group>"; };
+		F43758991F8B6D9D00E436F5 /* NotificationsVCNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVCNew.swift; sourceTree = "<group>"; };
+		F44072EE1F2B0D210086956F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		F44072F41F2B177F0086956F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F44072F81F2B3C180086956F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		F44440791F306A3400D4F1B5 /* CarStausVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStausVC.swift; sourceTree = "<group>"; };
+		F447CB731F2895B400B35B40 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		F447CB741F2895B400B35B40 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		F447CB751F2895B400B35B40 /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		F447CB761F2895B400B35B40 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		F447CB771F2895B400B35B40 /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		F447CB781F2895B400B35B40 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		F447CB791F2895B400B35B40 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		F447CB7A1F2895B400B35B40 /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		F447CB7B1F2895B400B35B40 /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		F447CB7C1F2895B400B35B40 /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		F447CB7D1F2895B400B35B40 /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		F447CB7E1F2895B400B35B40 /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		F447CB7F1F2895B400B35B40 /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		F447CB801F2895B400B35B40 /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		F447CB811F2895B400B35B40 /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		F447CB821F2895B400B35B40 /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		F447CB831F2895B400B35B40 /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		F447CB841F2895B400B35B40 /* SIL Open Font License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		F44AE8381F569F9A00078EDC /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F4587E411F723E4B00758FFB /* RoadsideAssistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadsideAssistVC.swift; sourceTree = "<group>"; };
+		F45B890C1FED246B006654D1 /* SimpleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTextField.swift; sourceTree = "<group>"; };
+		F461C7B41FCC0E9D00400B44 /* TripDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewModel.swift; sourceTree = "<group>"; };
+		F4701CD71F2A077A00C974EE /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		F471E7411F30467900199C39 /* TripViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripViewModel.swift; sourceTree = "<group>"; };
+		F471E7461F304DFD00199C39 /* EmergencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyVC.swift; sourceTree = "<group>"; };
+		F48051B81F8B747200E9DE61 /* NotificationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewModel.swift; sourceTree = "<group>"; };
+		F4901D7B1FED061C002DC610 /* AddOrEditEmergencyContactVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrEditEmergencyContactVC.swift; sourceTree = "<group>"; };
+		F49098E81FD961AE0098A7D9 /* TripHistoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryTest.swift; sourceTree = "<group>"; };
+		F4BAFB111F46EDED00B8A5D9 /* AlertsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertsViewModel.swift; sourceTree = "<group>"; };
+		F4BE055C1FAB058500FB3BDB /* TripSummaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSummaryViewModel.swift; sourceTree = "<group>"; };
+		F4D0AA001F2F3F39003E5FDF /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		F4D0AA091F2F5BC9003E5FDF /* TripHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripHistoryVC.swift; sourceTree = "<group>"; };
+		F4D724F01F319ED000DC1917 /* KipleCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KipleCar.swift; sourceTree = "<group>"; };
+		F4D724F11F319ED000DC1917 /* KipleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KipleViewController.swift; sourceTree = "<group>"; };
+		F4D724F71F31A10900DC1917 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F4D724FA1F31A37100DC1917 /* Walkthrough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walkthrough.swift; sourceTree = "<group>"; };
+		F4D724FF1F31A53F00DC1917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Walkthrough.xib; sourceTree = "<group>"; };
+		F4D725011F31D6F200DC1917 /* CustomShadeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomShadeView.swift; sourceTree = "<group>"; };
+		F4D725031F31E28E00DC1917 /* InCarWifiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InCarWifiVC.swift; sourceTree = "<group>"; };
+		F4D725061F31E40100DC1917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Montserrat-Black.otf"; sourceTree = "<group>"; };
+		F4D7FE261FCFE57000C496F5 /* PanicButtonDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanicButtonDetailVC.swift; sourceTree = "<group>"; };
+		F4D7FE281FCFE59600C496F5 /* RoadsideAssistDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadsideAssistDetailVC.swift; sourceTree = "<group>"; };
+		F4D934721FCECDB4008D44BF /* TermsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		F4D934741FCEDE6C008D44BF /* AddEmergencyContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmergencyContacts.swift; sourceTree = "<group>"; };
+		F4E4988F1FA20726004E5345 /* UserLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		F4E689D21FB484DF00721A0B /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F4E717341FD1459500547B4D /* FullScreenMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenMapVC.swift; sourceTree = "<group>"; };
+		F4EB7F6F1FDFBD1C000707C1 /* DeviceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotion.swift; sourceTree = "<group>"; };
+		F4F1EB121F38851300C73C1B /* TripDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailVC.swift; sourceTree = "<group>"; };
+		F4F43DF51F98B416002D14B4 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		F4F43DF71F98BF81002D14B4 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F4F596BF1F4EB32000B06126 /* ActivateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivateAccountVC.swift; sourceTree = "<group>"; };
+		F4F596C11F4EB33D00B06126 /* AccountSetUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountSetUpVC.swift; sourceTree = "<group>"; };
+		F4F596C31F4EB35500B06126 /* WelcomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		F4FD83691F6BC38300FFA453 /* EditTimeZoneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTimeZoneVC.swift; sourceTree = "<group>"; };
+		F4FDC0031F95E9FF0042C8F3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F4FDC0061F9609B60042C8F3 /* AccountTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTypeVC.swift; sourceTree = "<group>"; };
+		F4FF63761F97235B006B8BBE /* AtilzeConsumerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtilzeConsumerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4FF63781F97235B006B8BBE /* AtilzeConsumerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtilzeConsumerTests.swift; sourceTree = "<group>"; };
+		F4FF637A1F97235B006B8BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FF63801F97238A006B8BBE /* DriveAndTrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAndTrackTests.swift; sourceTree = "<group>"; };
+		F4FF63821F9728E1006B8BBE /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		F4FF63841F975676006B8BBE /* TripSummaryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripSummaryVC.swift; sourceTree = "<group>"; };
+		F4FF63861F9764D9006B8BBE /* Test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Test.gpx; sourceTree = "<group>"; };
+		FAF75FC8C492BD7E85201529 /* Pods-AtilzeConsumerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AtilzeConsumerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AtilzeConsumerTests/Pods-AtilzeConsumerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E231BDC1F1C8B4C003F7A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F412705F1F4ADF560004881D /* UserNotifications.framework in Frameworks */,
+				5EE5EA9A1F3838780099937E /* Security.framework in Frameworks */,
+				B15BE5A11F597AD4005C2636 /* MapKit.framework in Frameworks */,
+				5EE5EA981F38382C0099937E /* SystemConfiguration.framework in Frameworks */,
+				EBEC499CE99F31735AF1D925 /* Pods_AtilzeConsumer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF63731F97235B006B8BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E994E3B3C5072221E91E51DB /* Pods_AtilzeConsumerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E8F01A5406F9EF0A2228994 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B15BE5A01F597AD4005C2636 /* MapKit.framework */,
+				F412705E1F4ADF560004881D /* UserNotifications.framework */,
+				5EE5EA991F3838780099937E /* Security.framework */,
+				5EE5EA911F38329E0099937E /* SystemConfiguration.framework */,
+				766896E0622192AAD9776504 /* Pods_AtilzeConsumer.framework */,
+				8AF5DD1F8685EFE916319462 /* Pods_AtilzeConsumerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E231BD61F1C8B4C003F7A1D = {
+			isa = PBXGroup;
+			children = (
+				F4FF63861F9764D9006B8BBE /* Test.gpx */,
+				F412705B1F4AC4A10004881D /* GoogleService-Info.plist */,
+				F44072EE1F2B0D210086956F /* .swiftlint.yml */,
+				F447CB711F2895B400B35B40 /* montserrat */,
+				5E231BE11F1C8B4C003F7A1D /* AtilzeConsumer */,
+				F4FF63771F97235B006B8BBE /* AtilzeConsumerTests */,
+				5E231BE01F1C8B4C003F7A1D /* Products */,
+				A558BB10DA822AFC5BAAD940 /* Pods */,
+				F4FF63701F97210A006B8BBE /* TestClasses */,
+				1E8F01A5406F9EF0A2228994 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E231BE01F1C8B4C003F7A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E231BDF1F1C8B4C003F7A1D /* AtilzeConsumer.app */,
+				F4FF63761F97235B006B8BBE /* AtilzeConsumerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E231BE11F1C8B4C003F7A1D /* AtilzeConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				F412705D1F4ADD5A0004881D /* AtilzeConsumer.entitlements */,
+				5EE5EA951F3834570099937E /* Network Manager */,
+				5E60547C1F25B406000BF483 /* Views */,
+				F44072F11F2B147F0086956F /* Constants */,
+				5E60547B1F25B3C5000BF483 /* Utility */,
+				F4D724F41F31A07700DC1917 /* Helper Classes */,
+				5E6054771F25B3C5000BF483 /* View Models */,
+				5E231BE21F1C8B4C003F7A1D /* AppDelegate.swift */,
+				5E231BE41F1C8B4C003F7A1D /* ViewController.swift */,
+				5E231BE61F1C8B4C003F7A1D /* Main.storyboard */,
+				5EE800461F25F88300BBB71F /* SecondaryStoryboard.storyboard */,
+				5E231BE91F1C8B4C003F7A1D /* Assets.xcassets */,
+				5E231BEB1F1C8B4C003F7A1D /* LaunchScreen.storyboard */,
+				5E231BEE1F1C8B4C003F7A1D /* Info.plist */,
+				5EE5EA9B1F3838C70099937E /* AtilzeConsumer-Bridging-Header.h */,
+			);
+			path = AtilzeConsumer;
+			sourceTree = "<group>";
+		};
+		5E6054771F25B3C5000BF483 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B131364B1FA7446000F791BD /* Account Registration */,
+				F42BD6721F96297E004B7EE6 /* OBD less */,
+				F4FDC0021F95E99F0042C8F3 /* Tab Bar */,
+				F4FDC0051F96094B0042C8F3 /* Phase2 */,
+				5E60547A1F25B3C5000BF483 /* Controllers */,
+				F44AE8381F569F9A00078EDC /* Model.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		5E60547A1F25B3C5000BF483 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F49756461F8500C400D59AA7 /* Notifications */,
+				B15BE5A21F597E59005C2636 /* Locate My Car */,
+				B134A9851F4D94EE00165A55 /* Change Password */,
+				F4D724EF1F319ED000DC1917 /* KipleCar */,
+				F44440781F306A3400D4F1B5 /* CarStatus */,
+				F4D0AA081F2F5BC9003E5FDF /* Trip */,
+				F4D0A9FF1F2F3F19003E5FDF /* Settings */,
+				F44072F71F2B3B4B0086956F /* Menu */,
+				F4701CD41F2A073600C974EE /* Account */,
+				F471E7451F304DFD00199C39 /* Emergency */,
+				5E60547D1F25B42E000BF483 /* Dashboard */,
+				F426BBB11F754A4C009D6C66 /* Support */,
+				F4D725031F31E28E00DC1917 /* InCarWifiVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E60547B1F25B3C5000BF483 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5E604D6B1F260BB1007E4D49 /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5E60547C1F25B406000BF483 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F429EFAB1FA348E900430D10 /* OBDLess */,
+				F4D724F91F31A37100DC1917 /* Walkthrough */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E60547D1F25B42E000BF483 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				5E60547E1F25B43A000BF483 /* DashboardViewControlle.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		5EE5EA951F3834570099937E /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5EE5EA961F3834600099937E /* NetworkManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		A558BB10DA822AFC5BAAD940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE504025EE1B8AFF08C53B54 /* Pods-AtilzeConsumer.debug.xcconfig */,
+				AF8A717B9C3333B19BE6E2E1 /* Pods-AtilzeConsumer.release.xcconfig */,
+				FAF75FC8C492BD7E85201529 /* Pods-AtilzeConsumerTests.debug.xcconfig */,
+				C9FFCD0E21B4ECDADEF750F5 /* Pods-AtilzeConsumerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B131364B1FA7446000F791BD /* Account Registration */ = {
+			isa = PBXGroup;
+			children = (
+				B131364C1FA7449400F791BD /* AccountRegistrationVC.swift */,
+				B131364E1FA744AC00F791BD /* AboutYouVC.swift */,
+				B13136501FA744C500F791BD /* AboutYourCarVC.swift */,
+			);
+			path = "Account Registration";
+			sourceTree = "<group>";
+		};
+		B134A9851F4D94EE00165A55 /* Change Password */ = {
+			isa = PBXGroup;
+			children = (
+				B134A9861F4D953800165A55 /* ChangePasswordVC.swift */,
+				B134A9881F4DB94500165A55 /* EditCarModelVC.swift */,
+			);
+			name = "Change Password";
+			sourceTree = "<group>";
+		};
+		B15BE5A21F597E59005C2636 /* Locate My Car */ = {
+			isa = PBXGroup;
+			children = (
+				B15BE5A31F597EB6005C2636 /* LocateMyCarVC.swift */,
+			);
+			name = "Locate My Car";
+			sourceTree = "<group>";
+		};
+		F426BBB11F754A4C009D6C66 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F426BBB21F754A5B009D6C66 /* HelpSupportVC.swift */,
+				F426BBB31F754A5B009D6C66 /* TripsNotVC.swift */,
+				55A808F91FF8035100971798 /* FAQDetailVC.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F429EFAB1FA348E900430D10 /* OBDLess */ = {
+			isa = PBXGroup;
+			children = (
+				F429EFAC1FA3492E00430D10 /* WarningView.xib */,
+				F4194CD21FA85D2900E55F26 /* SpeedWarningView.xib */,
+				F40DB1D01FB9ADBE0040AC3E /* TrackingModeView.xib */,
+				558674421FFDF5F900EC05EA /* CarStatusAlertView.xib */,
+				553484DE2005F1AB002DB00F /* CarStatusAlertView2.xib */,
+				553484E020062FA3002DB00F /* CarStatusAlertsView3.xib */,
+			);
+			path = OBDLess;
+			sourceTree = "<group>";
+		};
+		F42BD6721F96297E004B7EE6 /* OBD less */ = {
+			isa = PBXGroup;
+			children = (
+				F41F504A1FB577FB00B331B9 /* FreeStarBuck.swift */,
+				F41F50491FB577FA00B331B9 /* FreeStarBuck.xib */,
+				F42BD6751F962AC3004B7EE6 /* DriveAndTrackVC.swift */,
+				F42BD6731F96299D004B7EE6 /* TripTrackingVC.swift */,
+				F4FF63841F975676006B8BBE /* TripSummaryVC.swift */,
+				F4E4988F1FA20726004E5345 /* UserLocation.swift */,
+				F4BE055C1FAB058500FB3BDB /* TripSummaryViewModel.swift */,
+				F461C7B41FCC0E9D00400B44 /* TripDetailViewModel.swift */,
+				F4E717341FD1459500547B4D /* FullScreenMapVC.swift */,
+				F4EB7F6F1FDFBD1C000707C1 /* DeviceMotion.swift */,
+				55AF8D292008C10C002DB30F /* MQTTObject.swift */,
+			);
+			path = "OBD less";
+			sourceTree = "<group>";
+		};
+		F44072F11F2B147F0086956F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F44072F41F2B177F0086956F /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F44072F71F2B3B4B0086956F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F44072F81F2B3C180086956F /* MenuVC.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		F44440781F306A3400D4F1B5 /* CarStatus */ = {
+			isa = PBXGroup;
+			children = (
+				F44440791F306A3400D4F1B5 /* CarStausVC.swift */,
+				F4BAFB111F46EDED00B8A5D9 /* AlertsViewModel.swift */,
+				559961422004E848005C9B8F /* CarStatusAlertsVC.swift */,
+			);
+			path = CarStatus;
+			sourceTree = "<group>";
+		};
+		F447CB711F2895B400B35B40 /* montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				F4D725071F31E40100DC1917 /* Montserrat-Black.otf */,
+				F447CB731F2895B400B35B40 /* Montserrat-Bold.otf */,
+				F447CB741F2895B400B35B40 /* Montserrat-ExtraBold.otf */,
+				F447CB751F2895B400B35B40 /* Montserrat-ExtraLight.otf */,
+				F447CB761F2895B400B35B40 /* Montserrat-Light.otf */,
+				F447CB771F2895B400B35B40 /* Montserrat-Medium.otf */,
+				F447CB781F2895B400B35B40 /* Montserrat-Regular.otf */,
+				F447CB791F2895B400B35B40 /* Montserrat-SemiBold.otf */,
+				F447CB7A1F2895B400B35B40 /* Montserrat-Thin.otf */,
+				F447CB7B1F2895B400B35B40 /* MontserratAlternates-Black.otf */,
+				F447CB7C1F2895B400B35B40 /* MontserratAlternates-Bold.otf */,
+				F447CB7D1F2895B400B35B40 /* MontserratAlternates-ExtraBold.otf */,
+				F447CB7E1F2895B400B35B40 /* MontserratAlternates-ExtraLight.otf */,
+				F447CB7F1F2895B400B35B40 /* MontserratAlternates-Light.otf */,
+				F447CB801F2895B400B35B40 /* MontserratAlternates-Medium.otf */,
+				F447CB811F2895B400B35B40 /* MontserratAlternates-Regular.otf */,
+				F447CB821F2895B400B35B40 /* MontserratAlternates-SemiBold.otf */,
+				F447CB831F2895B400B35B40 /* MontserratAlternates-Thin.otf */,
+				F4F43DF51F98B416002D14B4 /* Montserrat-Italic.ttf */,
+				F4F43DF71F98BF81002D14B4 /* Montserrat-BoldItalic.ttf */,
+				F4E689D21FB484DF00721A0B /* Montserrat-SemiBoldItalic.ttf */,
+				F447CB841F2895B400B35B40 /* SIL Open Font License.txt */,
+			);
+			path = montserrat;
+			sourceTree = "<group>";
+		};
+		F4701CD41F2A073600C974EE /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F4701CD71F2A077A00C974EE /* SignInVC.swift */,
+				F4020DC01F4D4BC00039B582 /* ActivationCodeVC.swift */,
+				F4F596BF1F4EB32000B06126 /* ActivateAccountVC.swift */,
+				F4F596C11F4EB33D00B06126 /* AccountSetUpVC.swift */,
+				F4F596C31F4EB35500B06126 /* WelcomeVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F471E7451F304DFD00199C39 /* Emergency */ = {
+			isa = PBXGroup;
+			children = (
+				F471E7461F304DFD00199C39 /* EmergencyVC.swift */,
+				F4587E411F723E4B00758FFB /* RoadsideAssistVC.swift */,
+				F4D7FE261FCFE57000C496F5 /* PanicButtonDetailVC.swift */,
+				F4D7FE281FCFE59600C496F5 /* RoadsideAssistDetailVC.swift */,
+				F4901D7B1FED061C002DC610 /* AddOrEditEmergencyContactVC.swift */,
+			);
+			path = Emergency;
+			sourceTree = "<group>";
+		};
+		F49756461F8500C400D59AA7 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				F43758991F8B6D9D00E436F5 /* NotificationsVCNew.swift */,
+				F48051B81F8B747200E9DE61 /* NotificationsViewModel.swift */,
+			);
+			name = Notifications;
+			path = "AtilzeConsumer/View Models/Controllers/Notifications";
+			sourceTree = SOURCE_ROOT;
+		};
+		F4D0A9FF1F2F3F19003E5FDF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F4D0AA001F2F3F39003E5FDF /* SettingsVC.swift */,
+				F4FD83691F6BC38300FFA453 /* EditTimeZoneVC.swift */,
+				F4D934721FCECDB4008D44BF /* TermsVC.swift */,
+				F4D934741FCEDE6C008D44BF /* AddEmergencyContacts.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F4D0AA081F2F5BC9003E5FDF /* Trip */ = {
+			isa = PBXGroup;
+			children = (
+				F4D0AA091F2F5BC9003E5FDF /* TripHistoryVC.swift */,
+				F471E7411F30467900199C39 /* TripViewModel.swift */,
+				F4F1EB121F38851300C73C1B /* TripDetailVC.swift */,
+			);
+			path = Trip;
+			sourceTree = "<group>";
+		};
+		F4D724EF1F319ED000DC1917 /* KipleCar */ = {
+			isa = PBXGroup;
+			children = (
+				F4D724F01F319ED000DC1917 /* KipleCar.swift */,
+				F4D724F11F319ED000DC1917 /* KipleViewController.swift */,
+			);
+			path = KipleCar;
+			sourceTree = "<group>";
+		};
+		F4D724F41F31A07700DC1917 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4D724F71F31A10900DC1917 /* CustomTextField.swift */,
+				F4D725011F31D6F200DC1917 /* CustomShadeView.swift */,
+				F45B890C1FED246B006654D1 /* SimpleTextField.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		F4D724F91F31A37100DC1917 /* Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				F4D724FA1F31A37100DC1917 /* Walkthrough.swift */,
+				F4D725001F31A53F00DC1917 /* Walkthrough.xib */,
+				551570C2203D055C00CC6614 /* Walkthrough1.xib */,
+			);
+			path = Walkthrough;
+			sourceTree = "<group>";
+		};
+		F4FDC0021F95E99F0042C8F3 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDC0031F95E9FF0042C8F3 /* TabBarController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		F4FDC0051F96094B0042C8F3 /* Phase2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4FDC0061F9609B60042C8F3 /* AccountTypeVC.swift */,
+			);
+			path = Phase2;
+			sourceTree = "<group>";
+		};
+		F4FF63701F97210A006B8BBE /* TestClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF63801F97238A006B8BBE /* DriveAndTrackTests.swift */,
+				F4FF63821F9728E1006B8BBE /* ProfileTests.swift */,
+				F49098E81FD961AE0098A7D9 /* TripHistoryTest.swift */,
+			);
+			path = TestClasses;
+			sourceTree = "<group>";
+		};
+		F4FF63771F97235B006B8BBE /* AtilzeConsumerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4FF63781F97235B006B8BBE /* AtilzeConsumerTests.swift */,
+				F4FF637A1F97235B006B8BBE /* Info.plist */,
+			);
+			path = AtilzeConsumerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E231BDE1F1C8B4C003F7A1D /* AtilzeConsumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E231BF11F1C8B4C003F7A1D /* Build configuration list for PBXNativeTarget "AtilzeConsumer" */;
+			buildPhases = (
+				B865190BE40CF284060E7313 /* [CP] Check Pods Manifest.lock */,
+				5E231BDB1F1C8B4C003F7A1D /* Sources */,
+				5E231BDC1F1C8B4C003F7A1D /* Frameworks */,
+				5E231BDD1F1C8B4C003F7A1D /* Resources */,
+				E10217394C618A121BB562C6 /* [CP] Embed Pods Frameworks */,
+				FBE1D39BE803130FEA340988 /* [CP] Copy Pods Resources */,
+				F40E556F1FB313E6005B8383 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtilzeConsumer;
+			productName = AtilzeConsumer;
+			productReference = 5E231BDF1F1C8B4C003F7A1D /* AtilzeConsumer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4FF63751F97235B006B8BBE /* AtilzeConsumerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4FF637D1F97235B006B8BBE /* Build configuration list for PBXNativeTarget "AtilzeConsumerTests" */;
+			buildPhases = (
+				31EF473D22D6CEA724C4C6CF /* [CP] Check Pods Manifest.lock */,
+				F4FF63721F97235B006B8BBE /* Sources */,
+				F4FF63731F97235B006B8BBE /* Frameworks */,
+				F4FF63741F97235B006B8BBE /* Resources */,
+				15002910756B70588FA430B4 /* [CP] Embed Pods Frameworks */,
+				816F13780A2D4D6434D89F41 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4FF637C1F97235B006B8BBE /* PBXTargetDependency */,
+			);
+			name = AtilzeConsumerTests;
+			productName = AtilzeConsumerTests;
+			productReference = F4FF63761F97235B006B8BBE /* AtilzeConsumerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E231BD71F1C8B4C003F7A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Cognitive;
+				TargetAttributes = {
+					5E231BDE1F1C8B4C003F7A1D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					F4FF63751F97235B006B8BBE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+						TestTargetID = 5E231BDE1F1C8B4C003F7A1D;
+					};
+				};
+			};
+			buildConfigurationList = 5E231BDA1F1C8B4C003F7A1D /* Build configuration list for PBXProject "AtilzeCunsumer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E231BD61F1C8B4C003F7A1D;
+			productRefGroup = 5E231BE01F1C8B4C003F7A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E231BDE1F1C8B4C003F7A1D /* AtilzeConsumer */,
+				F4FF63751F97235B006B8BBE /* AtilzeConsumerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E231BDD1F1C8B4C003F7A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F429EFA91FA343DC00430D10 /* Montserrat-BoldItalic.ttf in Resources */,
+				F4D724FE1F31A53F00DC1917 /* Walkthrough.xib in Resources */,
+				F44072FC1F2B43DB0086956F /* Montserrat-ExtraLight.otf in Resources */,
+				F44073041F2B43DB0086956F /* MontserratAlternates-ExtraBold.otf in Resources */,
+				F44072FE1F2B43DB0086956F /* Montserrat-Medium.otf in Resources */,
+				F44072FB1F2B43DB0086956F /* Montserrat-ExtraBold.otf in Resources */,
+				F429EFAA1FA343E000430D10 /* Montserrat-Italic.ttf in Resources */,
+				F44073021F2B43DB0086956F /* MontserratAlternates-Black.otf in Resources */,
+				F44073071F2B43DB0086956F /* MontserratAlternates-Medium.otf in Resources */,
+				F412705C1F4AC4A10004881D /* GoogleService-Info.plist in Resources */,
+				F44073031F2B43DB0086956F /* MontserratAlternates-Bold.otf in Resources */,
+				F44073061F2B43DB0086956F /* MontserratAlternates-Light.otf in Resources */,
+				F440730A1F2B43DB0086956F /* MontserratAlternates-Thin.otf in Resources */,
+				558674431FFDF5F900EC05EA /* CarStatusAlertView.xib in Resources */,
+				F440730B1F2B43DD0086956F /* Montserrat-Bold.otf in Resources */,
+				F44073081F2B43DB0086956F /* MontserratAlternates-Regular.otf in Resources */,
+				F4194CD31FA85D2A00E55F26 /* SpeedWarningView.xib in Resources */,
+				F44072EF1F2B0D210086956F /* .swiftlint.yml in Resources */,
+				5E231BED1F1C8B4C003F7A1D /* LaunchScreen.storyboard in Resources */,
+				F4E689D31FB484E800721A0B /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				5E231BEA1F1C8B4C003F7A1D /* Assets.xcassets in Resources */,
+				5EE800471F25F88300BBB71F /* SecondaryStoryboard.storyboard in Resources */,
+				551570C3203D055C00CC6614 /* Walkthrough1.xib in Resources */,
+				F44073051F2B43DB0086956F /* MontserratAlternates-ExtraLight.otf in Resources */,
+				F44073011F2B43DB0086956F /* Montserrat-Thin.otf in Resources */,
+				F429EFAD1FA3492E00430D10 /* WarningView.xib in Resources */,
+				F40DB1D11FB9ADBE0040AC3E /* TrackingModeView.xib in Resources */,
+				F44073091F2B43DB0086956F /* MontserratAlternates-SemiBold.otf in Resources */,
+				F4D725051F31E40100DC1917 /* Montserrat-Black.otf in Resources */,
+				F44072FF1F2B43DB0086956F /* Montserrat-Regular.otf in Resources */,
+				553484E120062FA3002DB00F /* CarStatusAlertsView3.xib in Resources */,
+				553484DF2005F1AB002DB00F /* CarStatusAlertView2.xib in Resources */,
+				F41F504B1FB577FB00B331B9 /* FreeStarBuck.xib in Resources */,
+				F44073001F2B43DB0086956F /* Montserrat-SemiBold.otf in Resources */,
+				5E231BE81F1C8B4C003F7A1D /* Main.storyboard in Resources */,
+				F44072FD1F2B43DB0086956F /* Montserrat-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF63741F97235B006B8BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15002910756B70588FA430B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AtilzeConsumerTests/Pods-AtilzeConsumerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31EF473D22D6CEA724C4C6CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		816F13780A2D4D6434D89F41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AtilzeConsumerTests/Pods-AtilzeConsumerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B865190BE40CF284060E7313 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E10217394C618A121BB562C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AtilzeConsumer/Pods-AtilzeConsumer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F40E556F1FB313E6005B8383 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" fad727dbf3a5a3ae341a911005b2aba50981750d cae2efd26ee458b1364227f1c805e48c07c71ce66adb445fe024f35a4ca051ef";
+		};
+		FBE1D39BE803130FEA340988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AtilzeConsumer/Pods-AtilzeConsumer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E231BDB1F1C8B4C003F7A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42BD6761F962AC3004B7EE6 /* DriveAndTrackVC.swift in Sources */,
+				F48051B91F8B747200E9DE61 /* NotificationsViewModel.swift in Sources */,
+				F41F504C1FB577FB00B331B9 /* FreeStarBuck.swift in Sources */,
+				5EE5EA971F3834600099937E /* NetworkManager.swift in Sources */,
+				F471E7471F304E0200199C39 /* EmergencyVC.swift in Sources */,
+				B15BE5A41F597EB6005C2636 /* LocateMyCarVC.swift in Sources */,
+				F4D098431F2F60AB00EA403B /* TripHistoryVC.swift in Sources */,
+				B13136511FA744C500F791BD /* AboutYourCarVC.swift in Sources */,
+				B134A9871F4D953800165A55 /* ChangePasswordVC.swift in Sources */,
+				F4F1EB131F38851300C73C1B /* TripDetailVC.swift in Sources */,
+				F461C7B51FCC0E9D00400B44 /* TripDetailViewModel.swift in Sources */,
+				F4BAFB121F46EDED00B8A5D9 /* AlertsViewModel.swift in Sources */,
+				F4FDC0071F9609B60042C8F3 /* AccountTypeVC.swift in Sources */,
+				F4F596C21F4EB33D00B06126 /* AccountSetUpVC.swift in Sources */,
+				F42BD6741F96299D004B7EE6 /* TripTrackingVC.swift in Sources */,
+				5E604D6C1F260BB1007E4D49 /* Utility.swift in Sources */,
+				55A808FA1FF8035100971798 /* FAQDetailVC.swift in Sources */,
+				F4D724F21F319ED000DC1917 /* KipleCar.swift in Sources */,
+				F4FD836A1F6BC38400FFA453 /* EditTimeZoneVC.swift in Sources */,
+				F4587E421F723E4B00758FFB /* RoadsideAssistVC.swift in Sources */,
+				F45B890D1FED246B006654D1 /* SimpleTextField.swift in Sources */,
+				F4D7FE271FCFE57000C496F5 /* PanicButtonDetailVC.swift in Sources */,
+				F437589A1F8B6D9D00E436F5 /* NotificationsVCNew.swift in Sources */,
+				F4F596C41F4EB35500B06126 /* WelcomeVC.swift in Sources */,
+				F4E717351FD1459500547B4D /* FullScreenMapVC.swift in Sources */,
+				B131364D1FA7449400F791BD /* AccountRegistrationVC.swift in Sources */,
+				5E231BE51F1C8B4C003F7A1D /* ViewController.swift in Sources */,
+				F4701CD81F2A077A00C974EE /* SignInVC.swift in Sources */,
+				559961432004E848005C9B8F /* CarStatusAlertsVC.swift in Sources */,
+				F4D724F31F319ED000DC1917 /* KipleViewController.swift in Sources */,
+				B131364F1FA744AC00F791BD /* AboutYouVC.swift in Sources */,
+				5E60547F1F25B43A000BF483 /* DashboardViewControlle.swift in Sources */,
+				F4E498901FA20726004E5345 /* UserLocation.swift in Sources */,
+				F44072F91F2B3C180086956F /* MenuVC.swift in Sources */,
+				F4D725021F31D6F200DC1917 /* CustomShadeView.swift in Sources */,
+				F4FDC0041F95E9FF0042C8F3 /* TabBarController.swift in Sources */,
+				B134A9891F4DB94500165A55 /* EditCarModelVC.swift in Sources */,
+				F4D724F81F31A10900DC1917 /* CustomTextField.swift in Sources */,
+				55AF8D2A2008C10C002DB30F /* MQTTObject.swift in Sources */,
+				F4D7FE291FCFE59600C496F5 /* RoadsideAssistDetailVC.swift in Sources */,
+				F4020DC11F4D4BC00039B582 /* ActivationCodeVC.swift in Sources */,
+				F4EB7F701FDFBD1C000707C1 /* DeviceMotion.swift in Sources */,
+				F426BBB41F754A5B009D6C66 /* HelpSupportVC.swift in Sources */,
+				F444407A1F306A3700D4F1B5 /* CarStausVC.swift in Sources */,
+				5E231BE31F1C8B4C003F7A1D /* AppDelegate.swift in Sources */,
+				F44AE8391F569F9A00078EDC /* Model.swift in Sources */,
+				F4D725041F31E28E00DC1917 /* InCarWifiVC.swift in Sources */,
+				F44072F51F2B177F0086956F /* Constants.swift in Sources */,
+				F471E7421F30467900199C39 /* TripViewModel.swift in Sources */,
+				F4D724FC1F31A37100DC1917 /* Walkthrough.swift in Sources */,
+				F4BE055D1FAB058500FB3BDB /* TripSummaryViewModel.swift in Sources */,
+				F4D0AA011F2F3F39003E5FDF /* SettingsVC.swift in Sources */,
+				F4901D7C1FED061C002DC610 /* AddOrEditEmergencyContactVC.swift in Sources */,
+				F4D934751FCEDE6C008D44BF /* AddEmergencyContacts.swift in Sources */,
+				F4D934731FCECDB5008D44BF /* TermsVC.swift in Sources */,
+				F426BBB51F754A5B009D6C66 /* TripsNotVC.swift in Sources */,
+				F4FF63851F975676006B8BBE /* TripSummaryVC.swift in Sources */,
+				F4F596C01F4EB32000B06126 /* ActivateAccountVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4FF63721F97235B006B8BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4FF63831F9728E1006B8BBE /* ProfileTests.swift in Sources */,
+				F49098E91FD961AF0098A7D9 /* TripHistoryTest.swift in Sources */,
+				F4FF63811F97238A006B8BBE /* DriveAndTrackTests.swift in Sources */,
+				F4FF63791F97235B006B8BBE /* AtilzeConsumerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4FF637C1F97235B006B8BBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E231BDE1F1C8B4C003F7A1D /* AtilzeConsumer */;
+			targetProxy = F4FF637B1F97235B006B8BBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E231BE61F1C8B4C003F7A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E231BE71F1C8B4C003F7A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E231BEB1F1C8B4C003F7A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E231BEC1F1C8B4C003F7A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F4D725001F31A53F00DC1917 /* Walkthrough.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D724FF1F31A53F00DC1917 /* Base */,
+			);
+			name = Walkthrough.xib;
+			sourceTree = "<group>";
+		};
+		F4D725071F31E40100DC1917 /* Montserrat-Black.otf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4D725061F31E40100DC1917 /* Base */,
+			);
+			name = "Montserrat-Black.otf";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E231BEF1F1C8B4C003F7A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E231BF01F1C8B4C003F7A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E231BF21F1C8B4C003F7A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE504025EE1B8AFF08C53B54 /* Pods-AtilzeConsumer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AtilzeConsumer/AtilzeConsumer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(SRCROOT",
+				);
+				INFOPLIST_FILE = AtilzeConsumer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.kiplecar.msig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AtilzeConsumer/AtilzeConsumer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		5E231BF31F1C8B4C003F7A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF8A717B9C3333B19BE6E2E1 /* Pods-AtilzeConsumer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AtilzeConsumer/AtilzeConsumer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+					"$(SRCROOT",
+				);
+				INFOPLIST_FILE = AtilzeConsumer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beta.kiplecar.msig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/AtilzeConsumer/AtilzeConsumer-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		F4FF637E1F97235B006B8BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF75FC8C492BD7E85201529 /* Pods-AtilzeConsumerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravindra Kanchikare (6XNC69L2AL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravindra Kanchikare (6XNC69L2AL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				INFOPLIST_FILE = AtilzeConsumerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.AtilzeConsumerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtilzeConsumer.app/AtilzeConsumer";
+			};
+			name = Debug;
+		};
+		F4FF637F1F97235B006B8BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FFCD0E21B4ECDADEF750F5 /* Pods-AtilzeConsumerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ravindra Kanchikare (6XNC69L2AL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ravindra Kanchikare (6XNC69L2AL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B52A6N3ZHM;
+				INFOPLIST_FILE = AtilzeConsumerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cc.AtilzeConsumerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AtilzeConsumer.app/AtilzeConsumer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E231BDA1F1C8B4C003F7A1D /* Build configuration list for PBXProject "AtilzeCunsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E231BEF1F1C8B4C003F7A1D /* Debug */,
+				5E231BF01F1C8B4C003F7A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E231BF11F1C8B4C003F7A1D /* Build configuration list for PBXNativeTarget "AtilzeConsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E231BF21F1C8B4C003F7A1D /* Debug */,
+				5E231BF31F1C8B4C003F7A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4FF637D1F97235B006B8BBE /* Build configuration list for PBXNativeTarget "AtilzeConsumerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF637E1F97235B006B8BBE /* Debug */,
+				F4FF637F1F97235B006B8BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E231BD71F1C8B4C003F7A1D /* Project object */;
+}

@@ -1,0 +1,8 @@
+app_identifier "com.beta.kiplecar.msig" # The bundle identifier of your app
+apple_id "ravi@cognitiveclouds.com" # Your Apple email address
+
+itc_team_id "117136605" # iTunes Connect Team ID
+team_id "B52A6N3ZHM" # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

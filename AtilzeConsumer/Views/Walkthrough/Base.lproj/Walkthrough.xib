@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Walkthrough" customModule="AtilzeConsumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="646"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initialBG1" translatesAutoresizingMaskIntoConstraints="NO" id="eYX-0Z-VIm">
+                    <rect key="frame" x="0.0" y="0.0" width="436" height="646"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initialScreen1" translatesAutoresizingMaskIntoConstraints="NO" id="PfC-9I-1l7">
+                    <rect key="frame" x="155.66666666666666" y="165" width="124.99999999999997" height="125"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="125" id="JwH-1u-une"/>
+                        <constraint firstAttribute="width" constant="125" id="mYu-Hr-Wa0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smart Vehicle, Smart User" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0N-zh-R8G">
+                    <rect key="frame" x="69.666666666666657" y="415.66666666666669" width="297.33333333333337" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" priority="1" constant="42" id="BZi-nw-5yx"/>
+                        <constraint firstAttribute="height" priority="1" constant="21" id="VIO-dl-Hvz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxe-fZ-454">
+                    <rect key="frame" x="30" y="454.66666666666669" width="376" height="51.333333333333314"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="1" constant="100" id="oOV-1Q-hE6"/>
+                    </constraints>
+                    <string key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</string>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="eYX-0Z-VIm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7gR-UJ-YCu"/>
+                <constraint firstItem="PfC-9I-1l7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Hkf-1G-gku"/>
+                <constraint firstItem="M0N-zh-R8G" firstAttribute="centerX" secondItem="PfC-9I-1l7" secondAttribute="centerX" id="Sly-jI-7cu"/>
+                <constraint firstItem="eYX-0Z-VIm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="W20-Yo-I4c"/>
+                <constraint firstAttribute="bottom" secondItem="Fxe-fZ-454" secondAttribute="bottom" constant="140" id="dYb-6j-e9d"/>
+                <constraint firstAttribute="trailing" secondItem="Fxe-fZ-454" secondAttribute="trailing" constant="30" id="ecW-e8-Vpb"/>
+                <constraint firstItem="Fxe-fZ-454" firstAttribute="top" secondItem="M0N-zh-R8G" secondAttribute="bottom" constant="12" id="frm-7L-2IH"/>
+                <constraint firstItem="Fxe-fZ-454" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="ngA-T4-UuW"/>
+                <constraint firstItem="M0N-zh-R8G" firstAttribute="top" relation="greaterThanOrEqual" secondItem="PfC-9I-1l7" secondAttribute="bottom" constant="5" id="r1f-Y6-Y8G"/>
+                <constraint firstAttribute="trailing" secondItem="eYX-0Z-VIm" secondAttribute="trailing" id="soc-T3-Jg9"/>
+                <constraint firstItem="Fxe-fZ-454" firstAttribute="centerX" secondItem="PfC-9I-1l7" secondAttribute="centerX" id="wP2-mr-RVy"/>
+                <constraint firstItem="PfC-9I-1l7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="165" id="xjh-2S-NFp"/>
+                <constraint firstAttribute="bottom" secondItem="eYX-0Z-VIm" secondAttribute="bottom" id="yc0-CJ-hXW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="Fxe-fZ-454" id="CCc-Xz-hWD"/>
+                <outlet property="imageView" destination="PfC-9I-1l7" id="Pfj-CC-khm"/>
+                <outlet property="mainTitleLabel" destination="M0N-zh-R8G" id="ebQ-UQ-Zjh"/>
+            </connections>
+            <point key="canvasLocation" x="113" y="161"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="initialBG1" width="375" height="667"/>
+        <image name="initialScreen1" width="125" height="125"/>
+    </resources>
+</document>

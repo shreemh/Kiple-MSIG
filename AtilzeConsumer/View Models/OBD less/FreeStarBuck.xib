@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FreeStarBuck" customModule="AtilzeConsumer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LIx-LY-bIO">
+                    <rect key="frame" x="0.0" y="19" width="99" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="rCe-VJ-lNy"/>
+                        <constraint firstAttribute="width" constant="99" id="ry9-PJ-gM4"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUJ-Hm-aMY">
+                    <rect key="frame" x="128" y="0.0" width="223" height="34.5"/>
+                    <string key="text">Free Starbucks on us
+when you completed 30 trips</string>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bT9-FP-RRK">
+                    <rect key="frame" x="128" y="44.5" width="125" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.63921568630000003" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="PxB-Ag-7sg"/>
+                        <constraint firstAttribute="width" constant="125" id="xZE-Dz-PGD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                    <state key="normal" title="Find out more">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="findOutMore:" destination="iN0-l3-epB" eventType="touchUpInside" id="jO8-E7-g35"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bT9-FP-RRK" firstAttribute="top" secondItem="SUJ-Hm-aMY" secondAttribute="bottom" constant="10" id="67I-Dx-Q70"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SUJ-Hm-aMY" secondAttribute="trailing" id="Hov-m0-x2z"/>
+                <constraint firstItem="LIx-LY-bIO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="19" id="Vfd-E2-lh8"/>
+                <constraint firstItem="LIx-LY-bIO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="WmW-ne-uPR"/>
+                <constraint firstItem="SUJ-Hm-aMY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Wp0-dx-MsZ"/>
+                <constraint firstItem="bT9-FP-RRK" firstAttribute="leading" secondItem="SUJ-Hm-aMY" secondAttribute="leading" id="mIU-pO-E8I"/>
+                <constraint firstItem="SUJ-Hm-aMY" firstAttribute="leading" secondItem="LIx-LY-bIO" secondAttribute="trailing" constant="29" id="pQg-rP-hcj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="findOutMore" destination="bT9-FP-RRK" id="t4a-FV-RkO"/>
+                <outlet property="starBuckImage" destination="LIx-LY-bIO" id="pam-Fc-CTT"/>
+                <outlet property="starBuckText" destination="SUJ-Hm-aMY" id="TbB-HD-hyg"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
+        </view>
+    </objects>
+</document>

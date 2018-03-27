@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tJF-pZ-lWb" userLabel="Walkthrough1">
+            <rect key="frame" x="0.0" y="0.0" width="436" height="646"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.60000002384185791" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initialBG" translatesAutoresizingMaskIntoConstraints="NO" id="RLt-u3-TFS">
+                    <rect key="frame" x="0.0" y="0.0" width="436" height="646"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" tag="3" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="initialScreen" translatesAutoresizingMaskIntoConstraints="NO" id="mKh-qa-tix">
+                    <rect key="frame" x="30" y="329" width="91" height="53"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="91" id="HaD-G9-ivf"/>
+                        <constraint firstAttribute="height" constant="53" id="w5X-4b-0Xv"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ConnectedCar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9R-iZ-Wsp">
+                    <rect key="frame" x="30" y="412" width="182" height="30.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="1" constant="21" id="Sau-yf-ivS"/>
+                        <constraint firstAttribute="width" priority="1" constant="42" id="d6L-0d-Xjq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="25"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="svB-bd-QyP">
+                    <rect key="frame" x="30" y="454.5" width="376" height="51.5"/>
+                    <constraints>
+                        <constraint firstAttribute="height" priority="1" constant="100" id="dTC-ac-Jcn"/>
+                    </constraints>
+                    <string key="text">The ConnectedCar app lets you access data of your car. Track your driving statistics. car status and maintenance history and alerts for  emergencies.</string>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="svB-bd-QyP" firstAttribute="top" secondItem="C9R-iZ-Wsp" secondAttribute="bottom" constant="12" id="4DC-Df-6ck"/>
+                <constraint firstAttribute="trailing" secondItem="svB-bd-QyP" secondAttribute="trailing" constant="30" id="Cz4-me-1jz"/>
+                <constraint firstItem="mKh-qa-tix" firstAttribute="top" relation="greaterThanOrEqual" secondItem="tJF-pZ-lWb" secondAttribute="top" constant="5" id="Fjh-Oi-emv"/>
+                <constraint firstAttribute="bottom" secondItem="svB-bd-QyP" secondAttribute="bottom" constant="140" id="JHa-Jl-3z3"/>
+                <constraint firstItem="mKh-qa-tix" firstAttribute="leading" secondItem="Rj1-kN-y0u" secondAttribute="leading" constant="30" id="KZ1-RZ-Il2"/>
+                <constraint firstAttribute="trailing" secondItem="RLt-u3-TFS" secondAttribute="trailing" id="RQ4-tn-4Mb"/>
+                <constraint firstItem="RLt-u3-TFS" firstAttribute="leading" secondItem="tJF-pZ-lWb" secondAttribute="leading" id="SRG-lv-sI9"/>
+                <constraint firstAttribute="bottom" secondItem="RLt-u3-TFS" secondAttribute="bottom" id="cKi-WJ-ojB"/>
+                <constraint firstItem="C9R-iZ-Wsp" firstAttribute="top" secondItem="mKh-qa-tix" secondAttribute="bottom" constant="30" id="jdt-FY-27M"/>
+                <constraint firstItem="RLt-u3-TFS" firstAttribute="top" secondItem="tJF-pZ-lWb" secondAttribute="top" id="lIp-yu-dgx"/>
+                <constraint firstItem="C9R-iZ-Wsp" firstAttribute="leading" secondItem="Rj1-kN-y0u" secondAttribute="leading" constant="30" id="rON-sj-2Ud"/>
+                <constraint firstItem="svB-bd-QyP" firstAttribute="leading" secondItem="tJF-pZ-lWb" secondAttribute="leading" constant="30" id="vZq-sF-Y2S"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Rj1-kN-y0u"/>
+            <point key="canvasLocation" x="113" y="161"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="initialBG" width="375" height="667"/>
+        <image name="initialScreen" width="91" height="53"/>
+    </resources>
+</document>

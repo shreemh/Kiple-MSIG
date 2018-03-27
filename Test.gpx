@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    <wpt lat="12.9259" lon="77.5830" speed = "20">
+        <name>Jayanagar</name>
+    </wpt>
+    <wpt lat="12.9242" lon="77.5191" speed = "10">
+        <name>RR Nagar</name>
+    </wpt>
+  
+<!--    <wpt lat="15.4026" lon="75.6208">-->
+<!--        <name>Gadag</name>-->
+<!--    </wpt>-->
+<!--    <wpt lat="15.2689" lon="76.3909">-->
+<!--        <name>Hospet</name>-->
+<!--    </wpt>-->
+</gpx>
+
