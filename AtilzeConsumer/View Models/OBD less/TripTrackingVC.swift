@@ -186,7 +186,12 @@ class TripTrackingVC: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         Model.shared.isTrackingModeChanged = false
         if Utility.getLoginType().lowercased() == "auto" {
             // AUTO TRACKING
-            startButtonHeight.constant = 0
+            if Model.shared.isOngoingTrip {
+                startButtonHeight.constant = 50
+            } else {
+                startButtonHeight.constant = 0
+            }
+            
             trackingModeBtn.setTitle("Auto tracking", for: .normal)
             
         } else {
@@ -215,9 +220,14 @@ class TripTrackingVC: UIViewController, MKMapViewDelegate, CLLocationManagerDele
             Model.shared.isTrackingModeChanged = false
             if Utility.getLoginType().lowercased() == "auto" {
                 // AUTO TRACKING
-                startButtonHeight.constant = 0
+                
+                if Model.shared.isOngoingTrip {
+                    startButtonHeight.constant = 50
+                } else {
+                    startButtonHeight.constant = 0
+                }
                 trackingModeBtn.setTitle("Auto tracking", for: .normal)
-               
+
             } else {
                 // MANUAL
                 startButtonHeight.constant = 50
@@ -251,6 +261,9 @@ class TripTrackingVC: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         mqttFlag = false
         
         DispatchQueue.main.async {
+            if Utility.getLoginType().lowercased() == "auto" {
+                self.startButtonHeight.constant = 0
+            }
             self.speedLbl.text = "0"
             self.distanceLbl.text = "0.0"
             self.durationLbl.text = "00:00:00"
@@ -498,6 +511,8 @@ class TripTrackingVC: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         startTime = Date()
         tripSummaryDict = [:]
         durationTimer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(updateDuration), userInfo: nil, repeats: true)
+        startButtonHeight.constant = 50
+        startStopBtn.setTitle("Stop", for: .normal)
     }
     
     func stopTrip() {

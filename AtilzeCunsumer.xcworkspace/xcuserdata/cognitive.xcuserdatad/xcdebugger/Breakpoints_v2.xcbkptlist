@@ -218,13 +218,29 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AtilzeConsumer/View Models/OBD less/TripTrackingVC.swift"
-            timestampString = "543324559.855297"
+            timestampString = "544100961.506617"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1427"
-            endingLineNumber = "1427"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            startingLineNumber = "1442"
+            endingLineNumber = "1442"
+            landmarkName = "tracingDeviceActivity(deviceActivity:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AtilzeConsumer/View Models/OBD less/TripTrackingVC.swift"
+            timestampString = "544100961.5073299"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "656"
+            endingLineNumber = "656"
+            landmarkName = "tracingLocation(currentLocation:GPSSignal:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

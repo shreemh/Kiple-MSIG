@@ -49,7 +49,6 @@
 		F42BD6741F96299D004B7EE6 /* TripTrackingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BD6731F96299D004B7EE6 /* TripTrackingVC.swift */; };
 		F42BD6761F962AC3004B7EE6 /* DriveAndTrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42BD6751F962AC3004B7EE6 /* DriveAndTrackVC.swift */; };
 		F437589A1F8B6D9D00E436F5 /* NotificationsVCNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43758991F8B6D9D00E436F5 /* NotificationsVCNew.swift */; };
-		F44072EF1F2B0D210086956F /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F44072EE1F2B0D210086956F /* .swiftlint.yml */; };
 		F44072F51F2B177F0086956F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44072F41F2B177F0086956F /* Constants.swift */; };
 		F44072F91F2B3C180086956F /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44072F81F2B3C180086956F /* MenuVC.swift */; };
 		F44072FB1F2B43DB0086956F /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F447CB741F2895B400B35B40 /* Montserrat-ExtraBold.otf */; };
@@ -171,7 +170,6 @@
 		F42BD6731F96299D004B7EE6 /* TripTrackingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripTrackingVC.swift; sourceTree = "<group>"; };
 		F42BD6751F962AC3004B7EE6 /* DriveAndTrackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveAndTrackVC.swift; sourceTree = "<group>"; };
 		F43758991F8B6D9D00E436F5 /* NotificationsVCNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsVCNew.swift; sourceTree = "<group>"; };
-		F44072EE1F2B0D210086956F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		F44072F41F2B177F0086956F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F44072F81F2B3C180086956F /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 		F44440791F306A3400D4F1B5 /* CarStausVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarStausVC.swift; sourceTree = "<group>"; };
@@ -284,7 +282,6 @@
 			children = (
 				F4FF63861F9764D9006B8BBE /* Test.gpx */,
 				F412705B1F4AC4A10004881D /* GoogleService-Info.plist */,
-				F44072EE1F2B0D210086956F /* .swiftlint.yml */,
 				F447CB711F2895B400B35B40 /* montserrat */,
 				5E231BE11F1C8B4C003F7A1D /* AtilzeConsumer */,
 				F4FF63771F97235B006B8BBE /* AtilzeConsumerTests */,
@@ -763,7 +760,6 @@
 				F440730B1F2B43DD0086956F /* Montserrat-Bold.otf in Resources */,
 				F44073081F2B43DB0086956F /* MontserratAlternates-Regular.otf in Resources */,
 				F4194CD31FA85D2A00E55F26 /* SpeedWarningView.xib in Resources */,
-				F44072EF1F2B0D210086956F /* .swiftlint.yml in Resources */,
 				5E231BED1F1C8B4C003F7A1D /* LaunchScreen.storyboard in Resources */,
 				F4E689D31FB484E800721A0B /* Montserrat-SemiBoldItalic.ttf in Resources */,
 				5E231BEA1F1C8B4C003F7A1D /* Assets.xcassets in Resources */,
